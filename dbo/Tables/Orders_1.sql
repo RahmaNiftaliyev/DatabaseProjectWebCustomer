@@ -1,0 +1,12 @@
+CREATE TABLE [dbo].[Orders_1] (
+    [Id]           INT  NULL,
+    [CustomerId]   INT  NULL,
+    [WorkerId]     INT  NULL,
+    [OrderDate]    DATE NULL,
+    [RequiredDate] DATE NULL,
+    [ShippedDate]  DATE NULL
+);
+
+
+GO
+
